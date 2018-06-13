@@ -1,53 +1,29 @@
-body {
-  background: $color-light;
-}
-
-.header {
-  height: 44px;
-  width: 44px;
-  position: fixed;
-  background-color: $color-secondary;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero {
-  width: 100vw;
-  height: 100vh;
-  background: url("/images/cover.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-title {
+.principal {
   width: 290px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  margin: auto;
+  padding-top: 45px;
+  position: relative;
 }
 
-.title {
-  font-family: $font-title;
-  color: $color-light;
-  font-size: 42px;
-  line-height: 55px;
-  font-weight: bold;
-  text-align: center;
+.hero-anchor {
+  position: absolute;
+  left: 0;
+  top: -100px;
 }
 
-.subtitle {
-  font-family: $font-text;
-  color: $color-light;
-  font-size: 16px;
-  text-align: center;
-  padding-top: 10px;
+.box-lite-title {
+  width: 90px;
+  height: 30px;
+}
+
+.box-section-title {
+  width: 290px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.box-paragraph {
+  width: 290px;
+  height: 120px;
+  margin-bottom: 30px;
 }

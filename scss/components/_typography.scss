@@ -1,1 +1,42 @@
 
+.title {
+  font-family: $font-title;
+  color: $color-light;
+  font-size: 42px;
+  line-height: 55px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: $font-text;
+  color: $color-light;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.lite-title {
+  font-family: $font-text;
+  color: $color-terciary;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.section-title {
+  font-family: $font-title;
+  color: $color-dark;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-family: $font-text;
+  color: $color-dark-midtone;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  text-align: justify;
+}

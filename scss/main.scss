@@ -1,7 +1,11 @@
 //CORE
 
-@import "core/general";
 @import "core/variables";
+@import "core/general";
+
+//LAYOUT
+
+@import "layout/header";
 
 //PAGES
 
@@ -9,4 +13,6 @@
 
 //COMPONENTS
 
-@import "components/buttons"
+@import "components/buttons";
+@import "components/hero";
+@import "components/typography";
