@@ -1,5 +1,17 @@
-body {
-  background: pink;
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}/* COLORS */body {
+  background: #fff;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: url("/images/cover.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */
