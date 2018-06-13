@@ -13,14 +13,15 @@
 		"gulp-notify": "*",
 		"gulp-plumber": "*",
 		"gulp-rename": "*",
-		"gulp-sass": "*",
 		"gulp-sourcemaps": "*",
 		"gulp-uglify": "*",
 		"gulp-util": "*",
 		"gulp-zip": "*",
 		"run-sequence": "*"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"gulp-sass": "^4.0.1"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
