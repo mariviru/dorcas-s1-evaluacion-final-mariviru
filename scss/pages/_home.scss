@@ -2,13 +2,14 @@
   width: 290px;
   margin: auto;
   padding-top: 45px;
+  padding-bottom: 45px;
   position: relative;
 }
 
 .hero-anchor {
   position: absolute;
   left: 0;
-  top: -100px;
+  top: 0;
 }
 
 .box-lite-title {
@@ -26,4 +27,20 @@
   width: 290px;
   height: 120px;
   margin-bottom: 30px;
+}
+
+.second {
+  width: 320px;
+  height: 624px;
+  margin: auto;
+  padding-top: 30px;
+  background-color: $color-midtone;
+}
+
+.box-second-title {
+  width: 290px;
+  height: 30px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 45px;
 }

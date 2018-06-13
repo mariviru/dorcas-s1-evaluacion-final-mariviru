@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 93px 93px 93px;
+  justify-content: center;
+  grid-gap: 45px;
+}
+
+.grid-item {
+  width: 184px;
+  height: 93px;
+  justify-self: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-third-title {
+  width: 184px;
+  height: 30px;
+}
+
+.box-section-paragraph {
+  width: 180px;
+  height: 63px;
+  padding-bottom: 45px;
+}

@@ -40,3 +40,18 @@
   font-weight: normal;
   text-align: justify;
 }
+
+.third-title {
+  font-family: $font-title;
+  color: $color-dark;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-paragraph {
+  font-family: $font-text;
+  color: $color-dark;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+}

@@ -33,3 +33,24 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.more-button {
+  width: 184px;
+  height: 45px;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background-color: $color-button;
+  border-radius: 22.5px;
+  position: relative;
+}
+
+.more-text {
+  font-family: $font-text;
+  color: $color-light;
+  font-weight: 500px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  transform: translate(25%, 45%);
+}

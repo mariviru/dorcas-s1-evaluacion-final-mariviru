@@ -13,6 +13,7 @@ body {
   height: 44px;
   width: 44px;
   position: fixed;
+  z-index: 10;
   background-color: #0271bc;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,17 +26,59 @@ body {
   align-items: center;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 93px 93px 93px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-gap: 45px;
+}
+
+.grid-item {
+  width: 184px;
+  height: 93px;
+  justify-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-third-title {
+  width: 184px;
+  height: 30px;
+}
+
+.box-section-paragraph {
+  width: 180px;
+  height: 63px;
+  padding-bottom: 45px;
+}
+
 .principal {
   width: 290px;
   margin: auto;
   padding-top: 45px;
+  padding-bottom: 45px;
   position: relative;
 }
 
 .hero-anchor {
   position: absolute;
   left: 0;
-  top: -100px;
+  top: 0;
 }
 
 .box-lite-title {
@@ -53,6 +96,22 @@ body {
   width: 290px;
   height: 120px;
   margin-bottom: 30px;
+}
+
+.second {
+  width: 320px;
+  height: 624px;
+  margin: auto;
+  padding-top: 30px;
+  background-color: #eff9ff;
+}
+
+.box-second-title {
+  width: 290px;
+  height: 30px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 45px;
 }
 
 .arrow-button {
@@ -91,6 +150,28 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.more-button {
+  width: 184px;
+  height: 45px;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background-color: #f26002;
+  border-radius: 22.5px;
+  position: relative;
+}
+
+.more-text {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 500px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  -webkit-transform: translate(25%, 45%);
+  transform: translate(25%, 45%);
 }
 
 .hero {
@@ -171,6 +252,21 @@ body {
   line-height: 30px;
   font-weight: normal;
   text-align: justify;
+}
+
+.third-title {
+  font-family: "Roboto Slab", serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-paragraph {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=main.css.map */
