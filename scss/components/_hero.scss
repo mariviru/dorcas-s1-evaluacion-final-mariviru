@@ -14,7 +14,9 @@
 }
 
 .hero-content {
-  width: 290px;
+  max-width: 420px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -26,7 +28,10 @@
 
 @media all and (min-width: 768px) {
   .hero-content {
-    width: 690px;
+    max-width: 690px;
+    padding-left: 39px;
+    padding-right: 39px;
+    transform: translateY(10%);
   }
 }
 

@@ -64,6 +64,12 @@
   transition: background-color ease 1s border ease 1s;
 }
 
+@media all and (min-width: 768px) {
+  .more-button {
+    width: 210px;
+  }
+}
+
 .more-button:hover {
   background-color: $color-light;
   border: 2px solid $color-button;

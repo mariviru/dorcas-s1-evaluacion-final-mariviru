@@ -6,8 +6,16 @@
   grid-gap: 45px;
 }
 
+@media all and (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 27px;
+  }
+}
+
 .grid-item {
-  width: 184px;
+  max-width: 184px;
   height: 93px;
   justify-self: center;
   display: flex;
@@ -15,6 +23,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .grid-item {
+    max-width: 210px;
+  }
 }
 
 .box-item-title {
