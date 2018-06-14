@@ -21,7 +21,14 @@
   background-color: $color-light;
   border: 2px solid $color-button;
   border-radius: 22.5px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color ease 1s;
+}
+
+.go-button:hover {
+  background-color: $color-button;
 }
 
 .go-text {
@@ -29,10 +36,12 @@
   color: $color-button;
   font-weight: 500;
   font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-decoration: none;
+  transition: color ease 1s;
+}
+
+.go-text:hover {
+  color: $color-light;
 }
 
 .more-button {
@@ -43,7 +52,15 @@
   margin-bottom: 45px;
   background-color: $color-button;
   border-radius: 22.5px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color ease 1s border ease 1s;
+}
+
+.more-button:hover {
+  background-color: $color-light;
+  border: 2px solid $color-button;
 }
 
 .more-text {
@@ -51,9 +68,12 @@
   color: $color-light;
   font-weight: 500px;
   font-size: 20px;
-  text-align: center;
-  position: absolute;
-  transform: translate(25%, 45%);
+  text-decoration: none;
+  transition: color ease 1s;
+}
+
+.more-text:hover {
+  color: $color-button;
 }
 
 .arrow-up-button {

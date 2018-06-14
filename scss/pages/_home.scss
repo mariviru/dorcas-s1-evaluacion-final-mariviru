@@ -1,5 +1,5 @@
 .section1 {
-  width: 290px;
+  width: 100vw;
   margin: auto;
   padding-top: 45px;
   padding-bottom: 45px;
@@ -13,24 +13,32 @@
 }
 
 .box-lite-title {
-  width: 90px;
+  width: 290px;
   height: 30px;
+  margin: auto;
 }
 
 .box-section1-title {
   width: 290px;
   height: 60px;
+  margin: auto;
   margin-bottom: 15px;
 }
 
 .box-paragraph {
   width: 290px;
   height: 120px;
-  margin-bottom: 30px;
+  margin: auto;
+}
+
+.button {
+  width: 290px;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .section2 {
-  width: 320px;
+  width: 100vw;
   height: 624px;
   margin: auto;
   padding-top: 30px;
