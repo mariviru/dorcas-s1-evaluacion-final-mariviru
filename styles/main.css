@@ -367,4 +367,56 @@ body {
   font-weight: normal;
 }
 
+@media all and (min-width: 768px) {
+  .section1 {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .box-lite-title {
+    width: 690px;
+  }
+
+  .box-section1-title {
+    width: 690px;
+    height: 45px;
+  }
+
+  .box-paragraph {
+    width: 690px;
+    height: 60px;
+  }
+
+  .button {
+    width: 690px;
+  }
+
+  .go-button {
+    width: 91px;
+  }
+
+  .hero-content {
+    width: 690px;
+  }
+
+  .title {
+    font-size: 80px;
+    line-height: 106px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

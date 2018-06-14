@@ -8,12 +8,25 @@
   text-align: center;
 }
 
+@media all and (min-width: 768px) {
+  .title {
+    font-size: 80px;
+    line-height: 106px;
+  }
+}
+
 .subtitle {
   color: $color-light;
   font-size: 16px;
   font-weight: normal;
   text-align: center;
   padding-top: 10px;
+}
+
+@media all and (min-width: 768px) {
+  .subtitle {
+    font-size: 24px;
+  }
 }
 
 .lite-title {
@@ -29,11 +42,25 @@
   font-weight: bold;
 }
 
+@media all and (min-width: 768px) {
+  .section-title {
+    font-size: 26px;
+    line-height: 45px;
+  }
+}
+
 .paragraph {
   color: $color-dark-midtone;
   line-height: 30px;
   font-weight: normal;
   text-align: justify;
+}
+
+@media all and (min-width: 768px) {
+  .paragraph {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .item-title {

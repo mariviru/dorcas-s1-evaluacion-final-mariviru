@@ -24,6 +24,12 @@
   transform: translateY(55%);
 }
 
+@media all and (min-width: 768px) {
+  .hero-content {
+    width: 690px;
+  }
+}
+
 .footer-anchor {
   position: absolute;
   left: 0;

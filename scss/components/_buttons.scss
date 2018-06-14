@@ -27,6 +27,12 @@
   transition: background-color ease 1s;
 }
 
+@media all and (min-width: 768px) {
+  .go-button {
+    width: 91px;
+  }
+}
+
 .go-button:hover {
   background-color: $color-button;
 }

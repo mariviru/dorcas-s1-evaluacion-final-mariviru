@@ -6,6 +6,13 @@
   position: relative;
 }
 
+@media all and (min-width: 768px) {
+  .section1 {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}
+
 .hero-anchor {
   position: absolute;
   left: 0;
@@ -18,11 +25,24 @@
   margin: auto;
 }
 
+@media all and (min-width: 768px) {
+  .box-lite-title {
+    width: 690px;
+  }
+}
+
 .box-section1-title {
   width: 290px;
   height: 60px;
   margin: auto;
   margin-bottom: 15px;
+}
+
+@media all and (min-width: 768px) {
+  .box-section1-title {
+    width: 690px;
+    height: 45px;
+  }
 }
 
 .box-paragraph {
@@ -31,10 +51,23 @@
   margin: auto;
 }
 
+@media all and (min-width: 768px) {
+  .box-paragraph {
+    width: 690px;
+    height: 60px;
+  }
+}
+
 .button {
   width: 290px;
   margin: auto;
   margin-top: 30px;
+}
+
+@media all and (min-width: 768px) {
+  .button {
+    width: 690px;
+  }
 }
 
 .section2 {
