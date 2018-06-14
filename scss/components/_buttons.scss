@@ -108,6 +108,9 @@
   border-radius: 22.5px;
   margin: auto;
   position: relative;
+  animation-name: up;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .arrow-up {
@@ -115,4 +118,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -45%);
+}
+
+@keyframes up {
+  from {
+    transform: rotate(-360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
 }
