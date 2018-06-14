@@ -1,17 +1,12 @@
 .arrow-down-button {
   width: 45px;
   height: 45px;
+  display: block;
+  background: url("../images/ico-scroll-down.svg") no-repeat center;
   background-color: $color-light;
   border-radius: 22.5px;
   margin: auto;
   position: relative;
-}
-
-.arrow-down {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -30%);
 }
 
 .go-button {
@@ -104,6 +99,8 @@
   width: 45px;
   height: 45px;
   top: -25px;
+  display: block;
+  background: url("../images/ico-arrow.svg") no-repeat center;
   background-color: $color-light;
   border-radius: 22.5px;
   margin: auto;
@@ -111,13 +108,6 @@
   animation-name: up;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-}
-
-.arrow-up {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -45%);
 }
 
 @keyframes up {
