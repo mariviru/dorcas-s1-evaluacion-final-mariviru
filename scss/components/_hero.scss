@@ -10,13 +10,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.hero-title {
+.hero-content {
   width: 290px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  position: absolute;
+  transform: translateY(55%);
+}
+
+.footer-anchor {
+  position: absolute;
+  left: 0;
+  top: 0;
 }

@@ -7,6 +7,9 @@
 
 body {
   background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000;
 }
 
 .header {
@@ -56,18 +59,46 @@ body {
   text-align: center;
 }
 
-.box-third-title {
+.box-item-title {
   width: 184px;
   height: 30px;
 }
 
-.box-section-paragraph {
+.box-grid-paragraph {
   width: 180px;
   height: 63px;
   padding-bottom: 45px;
 }
 
-.principal {
+.footer {
+  background-color: #304268;
+  width: 320px;
+  height: 128px;
+}
+
+.footer-text-box {
+  width: 128px;
+  height: 60px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heart {
+  color: #f26002;
+}
+
+.section1 {
   width: 290px;
   margin: auto;
   padding-top: 45px;
@@ -86,7 +117,7 @@ body {
   height: 30px;
 }
 
-.box-section-title {
+.box-section1-title {
   width: 290px;
   height: 60px;
   margin-bottom: 15px;
@@ -98,7 +129,7 @@ body {
   margin-bottom: 30px;
 }
 
-.second {
+.section2 {
   width: 320px;
   height: 624px;
   margin: auto;
@@ -106,7 +137,7 @@ body {
   background-color: #eff9ff;
 }
 
-.box-second-title {
+.box-section2-title {
   width: 290px;
   height: 30px;
   text-align: center;
@@ -114,21 +145,22 @@ body {
   margin-bottom: 45px;
 }
 
-.arrow-button {
+.arrow-down-button {
   width: 45px;
   height: 45px;
   top: 45px;
   background-color: #fff;
   border-radius: 22.5px;
+  margin: auto;
   position: relative;
 }
 
-.arrow {
+.arrow-down {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
 }
 
 .go-button {
@@ -174,6 +206,24 @@ body {
   transform: translate(25%, 45%);
 }
 
+.arrow-up-button {
+  width: 45px;
+  height: 45px;
+  top: -25px;
+  background-color: #fff;
+  border-radius: 22.5px;
+  margin: auto;
+  position: relative;
+}
+
+.arrow-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -45%);
+  transform: translate(-50%, -45%);
+}
+
 .hero {
   width: 100vw;
   height: 100vh;
@@ -192,9 +242,10 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  position: relative;
 }
 
-.hero-title {
+.hero-content {
   width: 290px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,6 +261,15 @@ body {
   justify-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
+  position: absolute;
+  -webkit-transform: translateY(55%);
+  transform: translateY(55%);
+}
+
+.footer-anchor {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .title {
@@ -222,7 +282,6 @@ body {
 }
 
 .subtitle {
-  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: normal;
@@ -231,7 +290,6 @@ body {
 }
 
 .lite-title {
-  font-family: "Roboto", sans-serif;
   color: #8ccbea;
   font-size: 14px;
   font-weight: normal;
@@ -239,33 +297,31 @@ body {
 
 .section-title {
   font-family: "Roboto Slab", serif;
-  color: #000;
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;
 }
 
 .paragraph {
-  font-family: "Roboto", sans-serif;
   color: #4a4a4a;
-  font-size: 18px;
   line-height: 30px;
   font-weight: normal;
   text-align: justify;
 }
 
-.third-title {
+.item-title {
   font-family: "Roboto Slab", serif;
-  color: #000;
-  font-size: 18px;
   font-weight: bold;
 }
 
-.section-paragraph {
-  font-family: "Roboto", sans-serif;
-  color: #000;
-  font-size: 18px;
+.grid-paragraph {
   line-height: 30px;
+  font-weight: normal;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 14px;
   font-weight: normal;
 }
 

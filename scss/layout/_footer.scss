@@ -1,0 +1,19 @@
+.footer {
+  background-color: $color-primary;
+  width: 320px;
+  height: 128px;
+}
+
+.footer-text-box {
+  width: 128px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heart {
+  color: $color-button;
+}
