@@ -11,6 +11,12 @@
   }
 }
 
+@media all and (min-width: 1280px) {
+  .section1 {
+    max-width: 730px;
+  }
+}
+
 .hero-anchor {
   position: absolute;
   left: 0;
@@ -65,7 +71,6 @@
 }
 
 .box-section2-title {
-  width: 290px;
   height: 30px;
   text-align: center;
   margin: auto;

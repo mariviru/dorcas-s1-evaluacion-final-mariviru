@@ -33,6 +33,12 @@
   }
 }
 
+@media all and (min-width: 1280px) {
+  .go-button {
+    width: 160px;
+  }
+}
+
 .go-button:hover {
   background-color: $color-button;
 }
@@ -67,6 +73,12 @@
 @media all and (min-width: 768px) {
   .more-button {
     width: 210px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .more-button {
+    width: 255px;
   }
 }
 

@@ -8,5 +8,12 @@ body {
   background-color: $color-light;
   font-family: $font-text;
   font-size: 18px;
+  line-height: 30px;
   color: $color-dark;
+}
+
+@media all and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
 }

@@ -9,6 +9,7 @@ body {
   background-color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  line-height: 30px;
   color: #000;
 }
 
@@ -37,10 +38,11 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   grid-gap: 45px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .grid-item {
-  max-width: 184px;
   height: 93px;
   justify-self: center;
   display: -webkit-box;
@@ -60,12 +62,10 @@ body {
 }
 
 .box-item-title {
-  width: 184px;
   height: 30px;
 }
 
 .box-grid-paragraph {
-  width: 180px;
   height: 63px;
   padding-bottom: 45px;
 }
@@ -141,7 +141,6 @@ body {
 }
 
 .box-section2-title {
-  width: 290px;
   height: 30px;
   text-align: center;
   margin: auto;
@@ -316,14 +315,14 @@ body {
   color: #fff;
   font-size: 42px;
   line-height: 55px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
 }
 
 .subtitle {
   color: #fff;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 400;
   text-align: center;
   padding-top: 10px;
 }
@@ -331,48 +330,57 @@ body {
 .lite-title {
   color: #8ccbea;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .section-title {
   font-family: "Roboto Slab", serif;
   font-size: 24px;
-  line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .paragraph {
   color: #4a4a4a;
-  line-height: 30px;
-  font-weight: normal;
+  font-weight: 400;
   text-align: justify;
 }
 
 .item-title {
   font-family: "Roboto Slab", serif;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .grid-paragraph {
-  line-height: 30px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .footer-text {
   color: #fff;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @media all and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 27px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
-  .grid-item {
-    max-width: 210px;
+  .grid {
+    grid-gap: 27px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
+  .box-item-title {
+    margin-bottom: 14px;
   }
 
   .section1 {
@@ -420,10 +428,34 @@ body {
     font-size: 26px;
     line-height: 45px;
   }
+}
 
-  .paragraph {
-    font-size: 20px;
-    line-height: 30px;
+@media all and (min-width: 1280px) {
+  .section1 {
+    max-width: 730px;
+  }
+
+  .go-button {
+    width: 160px;
+  }
+
+  .more-button {
+    width: 255px;
+  }
+
+  .hero-content {
+    max-width: 730px;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+  }
+
+  .title {
+    font-size: 100px;
+    line-height: 132px;
+  }
+
+  .section-title {
+    font-size: 32px;
   }
 }
 
