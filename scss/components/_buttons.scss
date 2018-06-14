@@ -1,7 +1,6 @@
 .arrow-down-button {
   width: 45px;
   height: 45px;
-  top: 45px;
   background-color: $color-light;
   border-radius: 22.5px;
   margin: auto;
@@ -18,12 +17,12 @@
 .go-button {
   width: 76px;
   height: 45px;
+  margin-top: 30px;
+  padding-top: 5px;
   background-color: $color-light;
   border: 2px solid $color-button;
   border-radius: 22.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   transition: background-color ease 1s;
 }
 
@@ -48,6 +47,7 @@
   color: $color-button;
   font-weight: 500;
   font-size: 20px;
+  text-align: center;
   text-decoration: none;
   transition: color ease 1s;
 }
@@ -59,15 +59,14 @@
 .more-button {
   width: 184px;
   height: 45px;
-  margin: auto;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  padding-top: 5px;
   background-color: $color-button;
   border-radius: 22.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color ease 1s border ease 1s;
+  display: block;
+  transition: background-color ease 1s, border ease 1s;
 }
 
 @media all and (min-width: 768px) {
@@ -92,6 +91,7 @@
   color: $color-light;
   font-weight: 500px;
   font-size: 20px;
+  text-align: center;
   text-decoration: none;
   transition: color ease 1s;
 }

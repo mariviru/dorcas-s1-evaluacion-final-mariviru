@@ -1,6 +1,4 @@
 .section1 {
-  width: 100vw;
-  margin: auto;
   padding: 45px 15px;
   position: relative;
 }
@@ -51,22 +49,21 @@
   }
 }
 
-.button {
-  margin: auto;
-  margin-top: 30px;
-}
-
 .section2 {
-  width: 100vw;
   height: 624px;
-  margin: auto;
+  /*margin: auto;*/
   padding-top: 30px;
+  padding-bottom: 45px;
+  padding-left: 70px;
+  padding-right: 70px;
   background-color: $color-midtone;
 }
 
 @media all and (min-width: 768px) {
   .section2 {
     max-height: 360px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 

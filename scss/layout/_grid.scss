@@ -1,11 +1,9 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 93px 93px 93px;
+  grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
-  grid-gap: 45px;
-  padding-left: 70px;
-  padding-right: 70px;
+  grid-gap: 30px;
 }
 
 @media all and (min-width: 768px) {
@@ -13,21 +11,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 27px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-
-@media all and (min-width: 768px) {
-  .grid {
-    grid-gap: 27px;
-    padding-left: 85px;
-    padding-right: 85px;
   }
 }
 
 .grid-item {
-  height: 93px;
   justify-self: center;
   display: flex;
   flex-flow: column;
