@@ -1,3 +1,19 @@
+.section0 {
+  width: 100%;
+  background-color: $color-button;
+  color: $color-light;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media all and (min-width: 768px) {
+  .section0 {
+    background-color: $color-primary;
+  }
+}
+
 .section1 {
   margin: auto;
   padding: 45px 15px;

@@ -96,6 +96,20 @@ body {
   color: #f26002;
 }
 
+.section0 {
+  width: 100%;
+  background-color: #f26002;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .section1 {
   margin: auto;
   padding: 45px 15px;
@@ -349,6 +363,10 @@ body {
 
   .box-item-title {
     margin-bottom: 14px;
+  }
+
+  .section0 {
+    background-color: #304268;
   }
 
   .section1 {
